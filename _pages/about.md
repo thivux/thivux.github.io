@@ -30,7 +30,7 @@ I am a **Research Resident** at **[Qualcomm AI Research](https://www.qualcomm.co
     role="alert"
     style="
       max-width: 720px;
-      margin: 1rem 220px 1.5rem 0;
+      margin: 1rem 120px 1.5rem 0;
       box-sizing: border-box;
     ">
      I am actively seeking a <strong>Ph.D. position in Computer Science</strong>
