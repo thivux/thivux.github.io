@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 'Research interests: Foundational Multimodal AI, Human-centered and Accessible AI'
+subtitle: '**Research interests**: Foundational Multimodal AI, Human-centered and Accessible AI, AI for Creativity'
 profile:
   align: right
   image: face_qualcomm.jpg
@@ -24,9 +24,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a **Research Resident** at **[Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence)**, where I am fortunate to be advised by [Dr. Dat Quoc Nguyen](https://datquocnguyen.github.io/). 
+I am a **Research Resident** at **[Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence)**, where I am fortunate to be advised by [Dr. Dat Quoc Nguyen](https://datquocnguyen.github.io/).
 
-**I am currently seeking a Ph.D. position in Computer Science.**
+<div class="alert alert-info" role="alert">
+    I am actively seeking a <strong>Ph.D. position in Computer Science</strong> for the <strong>Fall 2026 intake</strong>.
+</div>
 
 My research vision is built on two pillars: **foundational, multimodal AI** and **human-centered, accessible AI**. I believe that for AI to truly augment human capabilities, it must be able to robustly *perceive*, *reason*, and *interact* with the complex, *multimodal* world and provide *intuitive* interaction methods for users. My past research focused on the rich modality of audio to create systems that can listen, speak, and interact in a way that is both intelligent and deeply human.
 
