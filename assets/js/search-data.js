@@ -464,11 +464,25 @@ ninja.data = [{
           window.open("https://github.com/thivux", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/thi-vu-a0844519a", "_blank");
+        },
+      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=eVOwcXEAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/thivutru", "_blank");
         },
       },{
       id: 'light-theme',
