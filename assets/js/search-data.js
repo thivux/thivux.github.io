@@ -398,16 +398,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-my-first-author-paper-on-vietnamese-zero-shot-text-to-speech-is-accepted-to-acl-2025",
+          title: '🎉 My first-author paper on Vietnamese Zero-shot Text-to-Speech is accepted to ACL 2025!...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-am-honored-to-receive-the-outstanding-resident-award-in-research-2025-as-part-of-the-2025-recognition-awards-from-the-qualcomm-ai-residency-program-for-my-exceptional-research-skills-and-significant-impact-in-speech-and-language-technologies",
+          title: '🏆 I am honored to receive the Outstanding Resident Award in Research 2025,...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
