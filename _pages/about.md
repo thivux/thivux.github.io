@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: "Research interests: Human-AI Interaction, Speech Processing, Music AI, Multimodal AI"
-
+subtitle: 'Research interests: Foundational Multimodal AI, Human-centered and Accessible AI'
 profile:
   align: right
   image: face_qualcomm.jpg
   image_circular: false # crops the image to make it circular
-  # more_info: >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
+  address: >
+    <p>Qualcomm AI Research</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,9 +24,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
-I am seeking a PhD position to research Human-AI Interaction in the audio domain. My interests lie in developing novel speech and music AI systems that are intuitive, accessible, and aligned with human needs, with a focus on multimodal learning and assistive technologies.
+I am a **Research Resident** at **[Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence)**, where I am fortunate to be advised by [Dr. Dat Quoc Nguyen](https://datquocnguyen.github.io/). 
 
-<!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
+**I am currently seeking a Ph.D. position in Computer Science.**
 
-<!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+My research vision is built on two pillars: **foundational, multimodal AI** and **human-centered, accessible AI**. I believe that for AI to truly augment human capabilities, it must be able to robustly *perceive*, *reason*, and *interact* with the complex, *multimodal* world and provide *intuitive* interaction methods for users. My past research focused on the rich modality of audio to create systems that can listen, speak, and interact in a way that is both intelligent and deeply human.
+
+I am passionate about tackling open-ended problems with direct *human impact*. My work includes creating [large-scale audio datasets](https://huggingface.co/datasets/thivux/phoaudiobook) for underrepresented languages like Vietnamese to foster more inclusive AI, as well as developing end-to-end speech recognition systems that generate structured, formatted text without needing cumbersome post-processing. I have also built mobile accessibility tools, including a [sign language-to-text translator](https://github.com/ndhuynh02/BVoice) and a [Braille keyboard for visually impaired users](https://github.com/ndhuynh02/VBK-talkback).
+
+I am excited to continue my research journey in a Ph.D. program, where I can deepen my theoretical understanding and contribute to the future of multimodal and human-centered AI.
