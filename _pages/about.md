@@ -29,7 +29,7 @@ I am a **Research Resident** at **[Qualcomm AI Research](https://www.qualcomm.co
 <div class="alert alert-info"
     role="alert"
     style="
-      max-width: 720px;
+      max-width: 600px;
       margin: 1rem 120px 1.5rem 0;
       box-sizing: border-box;
     ">
