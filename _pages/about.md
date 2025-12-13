@@ -26,7 +26,7 @@ latest_posts:
 
 I am a **Research Resident** at **[Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence)**, where I am fortunate to be advised by [Dr. Dat Quoc Nguyen](https://datquocnguyen.github.io/).
 
-<div class="alert alert-info" role="alert" style="max-width: 720px; clear: both;">
+<div class="alert alert-info" role="alert" style="clear: both; width: 100%; box-sizing: border-box; margin: 1rem 0 1.5rem;">
   I am actively seeking a <strong>Ph.D. position in Computer Science</strong> for the <strong>Fall 2026 intake</strong>.
 </div>
 
