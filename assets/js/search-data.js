@@ -398,8 +398,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-my-first-author-paper-on-vietnamese-zero-shot-text-to-speech-is-accepted-to-acl-2025",
-          title: '🎉 My first-author paper on Vietnamese Zero-shot Text-to-Speech is accepted to ACL 2025!...',
+            },},{id: "news-my-first-author-paper-on-zero-shot-text-to-speech-for-vietnamese-is-accepted-to-acl-2025",
+          title: '🎉 My first-author paper on Zero-shot Text-to-Speech for Vietnamese is accepted to ACL...',
           description: "",
           section: "News",},{id: "news-i-am-honored-to-receive-the-outstanding-resident-award-in-research-2025-as-part-of-the-2025-recognition-awards-from-the-qualcomm-ai-residency-program-for-my-exceptional-research-skills-and-significant-impact-in-speech-and-language-technologies",
           title: '🏆 I am honored to receive the Outstanding Resident Award in Research 2025,...',
