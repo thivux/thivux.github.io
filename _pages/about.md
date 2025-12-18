@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: '<strong>Research interests</strong>: Foundational Multimodal AI, Human-centered and Accessible AI, AI for Creativity'
+subtitle: '<strong>Research interests</strong>: Multimodal Foundation Models, Audio & Speech Processing, Human-centered & Accessible AI, AI for Creativity'
 profile:
   align: right
   image: anh_the_toc_dai.jpeg
