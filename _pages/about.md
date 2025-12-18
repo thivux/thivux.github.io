@@ -5,7 +5,7 @@ permalink: /
 subtitle: '<strong>Research interests</strong>: Foundational Multimodal AI, Human-centered and Accessible AI, AI for Creativity'
 profile:
   align: right
-  image: face_qualcomm.jpg
+  image: anh_the_toc_dai.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Qualcomm AI Research</p>
@@ -34,7 +34,7 @@ I am a **Research Resident** at **[Qualcomm AI Research](https://www.qualcomm.co
       box-sizing: border-box;
     ">
      I am actively seeking a <strong>Ph.D. position in Computer Science</strong>
-  for the <strong>Fall 2026 intake</strong>.
+  for <strong>Fall 2026</strong>.
 </div>
 
 My research vision is built on two pillars: **foundational, multimodal AI** and **human-centered, accessible AI**. I believe that for AI to truly augment human capabilities, it must be able to robustly *perceive*, *reason*, and *interact* with the complex, *multimodal* world and provide *intuitive* interaction methods for users. My past research focused on the rich modality of audio to create systems that can listen, speak, and interact in a way that is both intelligent and deeply human.
