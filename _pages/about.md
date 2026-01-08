@@ -37,7 +37,7 @@ I am a **Research Resident** at **[Qualcomm AI Research](https://www.qualcomm.co
   for <strong>Fall 2026</strong>.
 </div>
 
-I am passionate about tackling open-ended problems with direct *human impact*. My research vision is built on two pillars: **foundational, multimodal AI** and **human-centered, accessible AI**. I believe that for AI to truly augment human capabilities, it must be able to robustly *perceive*, *reason*, and *interact* with the complex, *multimodal* world and provide *intuitive* interaction methods for users.
+I am passionate about tackling open-ended problems with direct *human impact*. My research vision is built on two pillars: **multimodal AI** and **human-centered, accessible AI**. I believe that for AI to truly augment human capabilities, it must be able to robustly *perceive*, *reason*, and *interact* with the complex, *multimodal* world and provide *intuitive* interaction methods for users.
 
 My past work has focused on leveraging the rich modality of *audio* to build systems that can listen, speak, and interact in ways that are both intelligent and intuitive. My research includes creating [large-scale speech datasets](https://huggingface.co/datasets/thivux/phoaudiobook) for underrepresented languages such as Vietnamese to promote more inclusive AI, as well as developing end-to-end speech recognition systems that produce fully orthographic, word-level timestamped text without requiring cumbersome post-processing. I have also developed mobile accessibility tools that bring the benefits of AI to people with disabilities, including a [sign language–to–text translator](https://github.com/ndhuynh02/BVoice) and a [Braille keyboard for visually impaired users](https://github.com/ndhuynh02/VBK-talkback).
 
