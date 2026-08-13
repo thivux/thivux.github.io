@@ -34,12 +34,12 @@
 Run:
 
 ```bash
-test ! -e assets/img/portrait_curly_hair.png
-test "$(rg -c 'actively seeking' _pages/about.md)" -eq 1
-test "$(rg -c 'homes.cs.washington.edu/~gshyam|smseitz.com|AzzJssIAAAAJ' _pages/about.md)" -eq 0
+test -e assets/img/portrait_curly_hair.png
+rg -q 'incoming \*\*Ph\.D\. student in Computer Science & Engineering\*\*' _pages/about.md
+! rg -q 'actively seeking' _pages/about.md
 ```
 
-Expected: all three commands pass, proving that the new portrait and advisor copy are absent while the obsolete alert remains.
+Expected before implementation: each command exits 1 because the new portrait and copy are absent while the obsolete alert remains. Expected after implementation: each command exits 0.
 
 - [ ] **Step 2: Install the portrait asset without transforming it**
 
@@ -79,10 +79,10 @@ As I begin my Ph.D. at the University of Washington, I am excited to deepen my t
 Run:
 
 ```bash
-test "$(rg -c 'actively seeking' _pages/about.md || true)" -eq 0
-test "$(rg -c 'incoming \*\*Ph\.D\. student in Computer Science & Engineering\*\*' _pages/about.md)" -eq 1
+! rg -q 'actively seeking' _pages/about.md
+rg -q 'incoming \*\*Ph\.D\. student in Computer Science & Engineering\*\*' _pages/about.md
 test "$(rg -o 'https://homes.cs.washington.edu/~gshyam/|https://www.smseitz.com/|https://datquocnguyen.github.io/|https://scholar.google.com/citations\?user=AzzJssIAAAAJ&hl=en' _pages/about.md | wc -l)" -eq 4
-test "$(rg -c 'image: portrait_curly_hair.png' _pages/about.md)" -eq 1
+rg -q 'image: portrait_curly_hair.png' _pages/about.md
 cmp /home/thivux/itsyoubro/face/portrait_curly_hair.png assets/img/portrait_curly_hair.png
 ```
 
@@ -241,4 +241,3 @@ git status --short
 ```
 
 Expected: `git diff --check` emits no output. `git status --short` contains no uncommitted source changes; ignored/generated `_site` output is acceptable.
-
