@@ -21,11 +21,13 @@
 ### Task 1: Homepage biography and portrait
 
 **Files:**
+
 - Modify: `_pages/about.md:6-45`
 - Create: `assets/img/portrait_curly_hair.png`
 - Source asset: `/home/thivux/itsyoubro/face/portrait_curly_hair.png`
 
 **Interfaces:**
+
 - Consumes: the existing `profile.image` front-matter field and about-page Markdown rendered by `_layouts/about.liquid`
 - Produces: a homepage biography with four advisor links and a profile image resolved as `assets/img/portrait_curly_hair.png`
 
@@ -57,7 +59,7 @@ Expected: `cmp` exits 0, confirming the site asset is byte-for-byte identical to
 Change `profile.image` to:
 
 ```yaml
-  image: portrait_curly_hair.png
+image: portrait_curly_hair.png
 ```
 
 Replace the existing Qualcomm opening and Ph.D.-seeking alert with:
@@ -98,11 +100,13 @@ git commit -m "feat: update academic status and portrait"
 ### Task 2: EACL publication and 2026 news
 
 **Files:**
+
 - Modify: `_bibliography/papers.bib:1-12`
 - Create: `_news/announcement_3.md`
 - Create: `_news/announcement_4.md`
 
 **Interfaces:**
+
 - Consumes: Jekyll's `news` collection and jekyll-scholar's `selected=true` query
 - Produces: two dated inline news records and one selected EACL 2026 BibTeX record
 
@@ -187,10 +191,12 @@ git commit -m "feat: add EACL paper and 2026 award"
 ### Task 3: Static-site integration verification
 
 **Files:**
+
 - Verify: `_site/index.html`
 - Verify: `_site/assets/img/portrait_curly_hair.png`
 
 **Interfaces:**
+
 - Consumes: all content and asset changes from Tasks 1 and 2
 - Produces: a successful Jekyll build whose generated homepage contains the complete updated public content
 
