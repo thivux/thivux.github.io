@@ -60,7 +60,7 @@
       "date": "2022-03-28",
       "issuer": "Coursera",
       "icon": "fa-solid fa-location-dot"
-    }, 
+    },
     {
       "name": "Deep Learning Specialization",
       "date": "2022-09-03",
@@ -93,13 +93,7 @@
     {
       "name": "Deep Learning",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Generative AI",
-        "Speech Generation",
-        "Automatic Speech Recognition",
-        "Human-Computer Interaction",
-        "Music Source Separation"
-      ]
+      "keywords": ["Generative AI", "Speech Generation", "Automatic Speech Recognition", "Human-Computer Interaction", "Music Source Separation"]
     }
   ],
   "projects": [
